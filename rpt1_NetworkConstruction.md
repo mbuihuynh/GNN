@@ -36,7 +36,7 @@ Informally, similarity/dissimilarity express a comparision between two data item
 
 
 3. Classification of network formation techniques:
-4. 
+
 
 
 
@@ -45,3 +45,5 @@ Informally, similarity/dissimilarity express a comparision between two data item
 ## References
 
 [1] T. Christiano Silva and L. Zhao, Machine Learning in Complex Networks. Cham: Springer International Publishing, 2016.
+[2]F. Chen, Y.-C. Wang, B. Wang, and C.-C. J. Kuo, “Graph representation learning: a survey,” APSIPA Transactions on Signal and Information Processing, vol. 9, p. e15, 2020, doi: 10.1017/ATSIP.2020.13.
+
