@@ -6,7 +6,9 @@ Vector based data is a set of items which can have an inter related data without
 
 <img title='Fig. 1 Unstructure vs. Structure data &[1&]' src='https://github.com/mbuihuynh/GNN/blob/main/images/rpt1_GraphPresent.png' width="1000" alt='Unstructure vs. Structure data'>
 
-Each item in dataset can be presented by a node in network. Edges are created by obtaining the similarity among data items. 
+Each item in dataset can be presented by a node in network. Edges are created by obtaining the similarity among data items. <br>
+
+To time series data, similarity definition declared to state recurrence x(i), when state x(j) at time j is similiarity to state x(i) in allowed threashold epsilon.
 
 
 2. Network Construction Techniques:
@@ -18,8 +20,6 @@ Informally, similarity/dissimilarity express a comparision between two data item
     - Numerical data: Euclidean distance, Manhattan, Chebyshev (max of elements), Minkowski distance (generalization of Euclidean, Manhattan), Gaussian kernel similarity, Cosine similarity
     - Categorical data: Hamming distance, Jaccard similarity
 
-
-
 - Transforming Vector-based data into Networks <br>
   - How to define the related items into network, using k-NN or epsilon radius techniques
   - b-matching network: to ensure each node in network has #edges to create balance graph.
@@ -28,10 +28,15 @@ Informally, similarity/dissimilarity express a comparision between two data item
   - Epsilon radius technique applied to build network
   <img title='Fig. 3 Epsilon radius technique' src='https://github.com/mbuihuynh/GNN/blob/main/images/rpt1_epsilon.png' width="1000" >
 
+- Transforming time series-based data into Networks <br>
+  - Cycle network: studying about topological features of time series.
+  - Correlation network: presented time series as state vector and used the Pearson correlation coefficient.
+  - Recurrence network: adjacency matrices are defined by the recurrence matrics of time series.
+  - Transition network: a network is a single time series, then build transition network to find the varying signal margin to another time series.
 
 
-
-
+3. Classification of network formation techniques:
+4. 
 
 
 
