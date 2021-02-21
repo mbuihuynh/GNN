@@ -35,8 +35,24 @@ Informally, similarity/dissimilarity express a comparision between two data item
   - Transition network: a network is a single time series, then build transition network to find the varying signal margin to another time series.
 
 
-3. Classification of network formation techniques:
+3. Graph Presentation/Embedded [2]:
 
+Opposite to the graph construction, there are some approaches to represent the graph/subgraph/nodes/edges in vector and then applied the machine learning that called as graph embedding or feature representation. It's upon on specified tasks that we can present the according components in graph into vector. For example, node embedding for node classification/clustering, edge embedding for link prediction, hybrid of nodes and edges for sub-graph/community learning.
+- The first-order proximity/relation in a network is the weighted edge linked by two nodes. The task is obtained by minimizing the distance between the joint probability distribution in the vector space.
+- The second-order relation in a network is other relationship between two nodes such as the nodes share similar neighborhood structures.
+<img title='Fig. 3 Graph presentation' src='https://github.com/mbuihuynh/GNN/blob/main/images/rpt1_graph_to_vector.png' width="500" >
+
+- Graph embedded techniques
+  - Dimensionality reduction
+  - Random walk
+  - Matrix factorization
+  - Neural networks: applying the CNN/RNN techniques to transform the graph/nodes/edges into vector. Some recently prominent works are,
+    + Node2vec: this paper used the sample strategy (random walk) to generate the directed sub-graph
+    + GraphSAGE:  
+  - Large graph
+  - Hypergraphs
+  - Attention mechanism
+  - Adversial generation
 
 
 
