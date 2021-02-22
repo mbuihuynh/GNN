@@ -48,7 +48,7 @@ Opposite to the graph construction, there are some approaches to represent the g
   - Matrix factorization
   - Neural networks: applying the CNN/RNN techniques to transform the graph/nodes/edges into vector. Some recently prominent works are,
     + Node2vec: this paper used the sample strategy (random walk) to generate the directed sub-graph
-    + GraphSAGE:  
+    + GraphSAGE is induction framework learnt to recognize structure properties of node's neighborhood representing local roles in graph and global position. We can image the node's neighborhood feature as context features. This approach learnt the aggregation function of a number of different hops or search depth from neighborhood and design the unsupervised loss function to train this framework without specified tasks. GraphSAGE is tested cross domains such as Citation, Reddit to predict paper/post categories or predict the protein function from dataset of protein-protein interaction. This framework improved classification F1-score than node features alone.    
   - Large graph
   - Hypergraphs
   - Attention mechanism
